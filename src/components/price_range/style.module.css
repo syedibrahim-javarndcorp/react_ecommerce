@@ -1,0 +1,13 @@
+.priceRangeContainer{
+    width: 100%;
+    margin:2% 0;
+    cursor: pointer;
+}
+
+.priceRangeBox{
+    width: 88%;
+    padding: .5% 0;
+    margin:0 auto;
+    display: flex;
+    gap: 1rem;
+}

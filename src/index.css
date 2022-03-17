@@ -1,0 +1,29 @@
+:root{
+  --text-color-purity:#fff;
+  --text-color-dark:#000;
+  --background-color-light:#fff;
+  --background-color-dark:#000;
+  --fontsize-strong:40px;
+  --fontsize-tough:32px;
+  --fontsize-pearl:28px;
+  --fontsize-trim:24px;
+  --fontsize-glossy:20px;
+  --fontsize-gentle:18px;
+  --fontsize-brittle:16px;
+}
+
+body {
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+  color: var(--text-color-dark);
+  word-wrap: break-word;
+  font-family: 'Ubuntu', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+hr{
+  border-top: 1px solid #eee
+}
+

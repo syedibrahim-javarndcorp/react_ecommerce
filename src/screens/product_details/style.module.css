@@ -1,0 +1,30 @@
+.container{
+    margin-top: -1%;
+    width:100%;
+}
+
+.box{
+    width: 80%;
+    margin: 15% auto;
+    display: flex;
+    align-items: center;
+    gap: 10%;
+}
+.productImage{
+    padding: 15%;
+    transition: 0.4s;
+    border-radius: .5rem;
+    box-shadow: 5px 5px 30px 7px rgba(214, 210, 210, 0.25), -5px -5px 30px 7px rgba(173, 169, 169, 0.22);
+}
+.brandName{
+    font-size: var(--fontsize-pearl);
+}
+.details{
+    display: flex;
+    flex-direction: column;
+}
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+}
